@@ -1,0 +1,30 @@
+.intro_box{
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        
+
+        .col-2{
+
+            ul{
+
+                li{
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 36px;
+                    h4{
+                        color: #1F2428;
+                        font-size: 30px;
+                        margin-bottom: 10px
+                    }
+                    span{
+                        font-weight: bold;
+                        color: #1F2428;
+                        cursor: pointer;
+                    }
+                }
+             }
+        }
+    }
+}
