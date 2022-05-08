@@ -1,20 +1,33 @@
-html {
-  box-sizing: border-box;
-}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-body {
-  padding: 0;
   margin: 0;
-  font-family: "Roboto", "Arial", sans-serif;
-  line-height: 1.5;
-  color: #fff;
-  background-color: #1B2330;
+  padding: 0;
 }
-.img {
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+img {
+  display: block;
   max-width: 100%;
   height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
 }
