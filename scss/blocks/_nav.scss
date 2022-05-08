@@ -1,0 +1,23 @@
+.nav {
+    display: inline-block;
+    &__list {
+        display: flex;
+        margin: 0 auto;
+    }
+    &__item {
+        margin: 0 20px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        color: #1F2428;
+        transition: all 0.4s ease;
+        &:hover {
+            opacity: 0.6;
+        }
+        &:active {
+            opacity: 0.8;
+        }
+    }
+}
